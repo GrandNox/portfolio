@@ -32,3 +32,4 @@ The project showcases:
 ## Deployment
 
 Deployed with Vercel.
+https://nox-portfolio-ra5oj0jxz-noxs-projects-3e5ee1f2.vercel.app
