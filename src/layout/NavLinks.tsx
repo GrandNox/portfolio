@@ -10,7 +10,6 @@ export const navList: Navigation[] = [
   { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
   { href: "#principles", label: "Principles" },
-  { href: "#contact", label: "Contact" },
 ];
 
 type NavLinksProps = {
@@ -40,9 +39,11 @@ export default function NavLinks({
       ))}
 
       {showCTA && (
-        <div className=" md:block">
-          <Button>Contact Me</Button>
-        </div>
+        <a href="#contact" onClick={onClick}>
+          <div className=" md:block">
+            <Button>Contact Me</Button>
+          </div>
+        </a>
       )}
     </div>
   );

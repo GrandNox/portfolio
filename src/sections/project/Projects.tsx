@@ -1,12 +1,11 @@
 import { ArrowUpRight } from "lucide-react";
 
-import { projects, projectsSection } from "../../mock-data/projects";
+import { githubLink, projects, projectsSection } from "../../mock-data/projects";
 import AnimatedBorderButton from "../../components/AnimatedBorderButton";
 import { SectionHeader } from "../../components/SectionHeader";
 import { ProjectCard } from "./ProjectCard";
 
 export default function Projects() {
-
   return (
     <section id="projects" className="py-32 relative overflow-hidden">
       {/* Bg glows */}
@@ -33,10 +32,16 @@ export default function Projects() {
 
         {/* view all */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <AnimatedBorderButton>
-            {projectsSection.additionalText}
-            <ArrowUpRight className="w-5 h-5" />
-          </AnimatedBorderButton>
+          <a
+            href={githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AnimatedBorderButton>
+              {projectsSection.additionalText}
+              <ArrowUpRight className="w-5 h-5" />
+            </AnimatedBorderButton>
+          </a>
         </div>
       </div>
     </section>

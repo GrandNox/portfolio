@@ -32,7 +32,7 @@ export const heroSocials: Socials[] = [
   },
   {
     icon: "/GitHub_Invertocat_White.svg",
-    href: "https://github.com",
+    href: "https://github.com/GrandNox/portfolio",
     label: "GitHub",
   },
 ];

@@ -23,10 +23,7 @@ export default function Navbar() {
       className={`fixed top-0 left-0 right-0 border border-transparent transition-all duration-500 ${isScrolled ? "glass-strong border-border/20 py-3" : "bg-transparent py-5"} z-50`}
     >
       <nav className="container mx-auto px-6 flex items-center justify-between">
-        <a
-          href="#"
-          className="text-xl tracking-tight hover:text-primary"
-        >
+        <a href="#" className="text-xl tracking-tight hover:text-primary">
           Anastasia Zhalevska
           <span className="text-primary">.</span>
         </a>
@@ -40,7 +37,9 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:block">
-          <Button size="sm">Contact Me</Button>
+          <a href="#contact">
+            <Button size="sm">Contact Me</Button>
+          </a>
         </div>
 
         {/* mobile navigation */}
