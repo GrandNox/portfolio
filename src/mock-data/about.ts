@@ -41,7 +41,7 @@ export const highlights: Highlights[] = [
 ];
 
 export const aboutDescriptions = [
-  "Frontend Engineer with 4+ years of experience building Angular and TypeScript applications within enterprise and microfrontend environments.",
+  "Frontend Engineer with 5+ years of experience building Angular and TypeScript applications within enterprise and microfrontend environments.",
   "Core contributor to a cybersecurity platform, developing reusable UI components, scalable workflows, and maintainable frontend architecture for complex products.",
   "Interested in frontend engineering across Angular and React, focused on scalable systems and long-term maintainability.",
 ];
