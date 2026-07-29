@@ -18,7 +18,7 @@ export const contactInfo: ContactInfo[] = [
     {
       icon: MapPin,
       label: "Location",
-      value: "Wroclaw, Poland",
+      value: "Kyiv, Ukraine",
       href: "#",
     },
     {
