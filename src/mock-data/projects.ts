@@ -12,18 +12,18 @@ export const githubLink = "https://github.com/GrandNox";
 
 export const projects: Projects[] = [
   {
-    title: "Project 1",
-    description: "Some description of the project named 'One'",
-    image: "/project2.jpg",
+    title: "Portfolio",
+    description: "Personal portfolio website built with React, TypeScript and Tailwind CSS",
+    image: "portfolio_preview.png",
     tags: ["React", "Typescript"],
-    link: githubLink,
+    link: "https://github.com/GrandNox/portfolio",
   },
   {
-    title: "Project 2",
-    description: "Some description of the project named 'Two'",
-    image: "/project3.jpg",
-    tags: ["React", "TypeScript", "Tailwind"],
-    link: githubLink,
+    title: "Rapid Reflex Game",
+    description: "A simple reaction game built with Angular 20",
+    image: "/reflex-game.jpg",
+    tags: ["Angular", "TypeScript"],
+    link: "https://github.com/GrandNox/reflex-game",
   },
 ];
 
@@ -31,6 +31,6 @@ export const projectsSection: SectionHeaderData = {
   label: "Featured Work",
   heading: "Projects",
   headingHighlight: "in progress",
-  description: "Coming soon...",
+  description: "",
   additionalText: "View All Projects",
 };
