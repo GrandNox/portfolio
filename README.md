@@ -2,6 +2,10 @@
 
 Personal portfolio website built with React, TypeScript and Tailwind CSS.
 
+<img width="1498" height="647" alt="portfolio_preview" src="https://github.com/user-attachments/assets/ed4d3c4d-a8bb-44e9-9aa7-0b68bb068200" />
+
+
+
 The project showcases:
 - downloadable CV
 - selected technologies and skills
